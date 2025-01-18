@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/av.png";
+// import logo from "../Assets/av.png";
 import { Link } from "react-router-dom";
 
-import './NavBar.css';
+
 
 import {
 
@@ -38,7 +38,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex align-items-center">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          <span className="purple">Abhishek</span>
           <span className="brand-name ms-2">Portfolio</span>
         </Navbar.Brand>
         <Navbar.Toggle

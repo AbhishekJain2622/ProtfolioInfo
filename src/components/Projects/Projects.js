@@ -24,6 +24,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ZestyZone}
+              imgClass="custom-card-image"
               isBlog={false}
               title="ZestyZone-Ecommerce"
               description="An intuitive e-commerce platform featuring user authentication, email verification, and Razorpay integration. Provides a secure and seamless shopping experience."
@@ -34,6 +35,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Elearn}
+              imgClass="custom-card-image"
               isBlog={false}
               title="E-learning Platform"
               description="A scalable e-learning web app designed with Django. Offers interactive tools to enhance online education for students and educators."
@@ -44,6 +46,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={watch}
+              imgClass="custom-card-image"
               isBlog={false}
               title="Watch Store"
               description="A user-friendly e-commerce site tailored for luxury and budget-friendly watches, offering smooth navigation and efficient store management."
@@ -54,6 +57,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Travelling}
+              imgClass="custom-card-image"
               isBlog={false}
               title="Travelogue Application"
               description="A travel management web app built with Django to simplify trip planning and destination discovery for travelers."
@@ -64,6 +68,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Ecome}
+              imgClass="custom-card-image"
               isBlog={false}
               title="Rest-React Ecommerce"
               description="A modern e-commerce app combining React, Redux, and Django REST Framework to deliver a responsive user experience."
@@ -74,6 +79,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cube}
+              imgClass="custom-card-image"
               isBlog={false}
               title="CRUD Application"
               description="A Django project showcasing Create, Read, Update, and Delete functionalities for efficient data management."
