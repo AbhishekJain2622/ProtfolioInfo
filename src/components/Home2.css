@@ -1,0 +1,84 @@
+/* Dark Background and Gradient for the About Section */
+.home-about-section {
+  background: linear-gradient(135deg, #2d3a7e, #1b1d34); /* Dark gradient background */
+  color: white;
+  padding: 80px 0;
+}
+
+.home-about-description {
+  text-align: left;
+  color: #dcdcdc;
+}
+
+.home-about-description h1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ff6347, #ff473b); /* Gradient text */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.highlight {
+  color: #ff6347; /* Accent color for keywords */
+}
+
+.home-about-body {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #dcdcdc;
+}
+
+/* Avatar image styling */
+.my-avatar img {
+  max-height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease;
+}
+
+.my-avatar img:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Social Icons and Links */
+.home-about-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.social-icons a {
+  font-size: 2.2em;
+  color: #dcdcdc;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff6347; /* Hover color */
+  transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+/* Heading for Find Me On */
+.home-about-social h1 {
+  font-size: 2.5em;
+  color: #ff6347;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-about-social p {
+  text-align: center;
+  color: #dcdcdc;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .home-about-description {
+    text-align: center;
+  }
+
+  .my-avatar img {
+    max-height: 350px;
+  }
+}
