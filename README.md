@@ -1,6 +1,6 @@
 <h1 align="center">
   🌟 Abhishek Jain | Portfolio Website v2.0 🌟<br />
-  <a href="https://abhishekjain.tech" target="_blank">https://abhishekjain.tech</a>
+
 </h1>
 
 <div align="center">
