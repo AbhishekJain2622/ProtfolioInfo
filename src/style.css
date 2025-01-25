@@ -725,3 +725,19 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+.shadee {
+  color:#a24dd386; /* Apply your desired shade */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Optional for emphasis */
+  outline: none; /* Removes focus outline */
+}
+
+.shadee:hover {
+  color: #5a5a5a; /* Slightly darker color on hover */
+}
+
+.shadee:focus {
+  outline: none; /* Ensures no focus outline when using keyboard navigation */
+}
